@@ -86,3 +86,34 @@ img {
     margin-top: 15px;
     max-width: fit-content;
 }
+
+/* Projects */
+.projects {
+    margin-top: 20px;
+    background-color: white;
+    color: #1F2937;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.projectstitle {
+    font-size: 30px;
+    padding: 15px;
+}
+
+.projectcards {
+    display: flex;
+}
+
+.card {
+    border: 1px solid #eee;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 4px;
+    width: 300px;
+    height: 300px;
+    margin: 16px;
+    padding: 16px;
+  }
