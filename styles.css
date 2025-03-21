@@ -59,6 +59,7 @@ li {
     align-items: center;
     max-width: 80%;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 img {
@@ -100,12 +101,17 @@ img {
 }
 
 .projectstitle {
-    font-size: 30px;
-    padding: 15px;
+    font-size: 40px;
+    padding: 25px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-weight: bold;
 }
 
 .projectcards {
     display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
 }
 
 .card {
@@ -117,3 +123,16 @@ img {
     margin: 16px;
     padding: 16px;
   }
+
+/* Quotation Section */
+.quote {
+    margin: 40px 140px;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.speaker {
+    align-self: flex-end;
+}
