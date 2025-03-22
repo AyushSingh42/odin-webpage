@@ -101,7 +101,8 @@ img {
     flex-direction: column;
 }
 
-.projectstitle {
+.projectstitle,
+.funstufftitle {
     font-size: 40px;
     padding: 25px;
     margin-bottom: 20px;
@@ -127,7 +128,7 @@ img {
 
 /* Quotation Section */
 .quote {
-    margin: 40px 140px;
+    margin: 80px 140px;
     font-size: 40px;
     display: flex;
     flex-direction: column;
@@ -139,3 +140,14 @@ img {
 }
 
 /*Fun stuff! */
+.funstuff {
+    background-color: white;
+    color: #1F2937;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.funstufftitle {
+    margin-top: 40px;
+}
